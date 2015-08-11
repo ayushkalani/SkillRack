@@ -9,7 +9,7 @@ public class payoda2{
 		String str=br.readLine();
 		permutation("",str);
 		System.out.println(yu.size());
-		//copied code ..HashSEt can't be sorted so we use treeset which is by deafult in ascending order
+		//HashSEt can't be sorted so we use treeset which is by deafult in ascending order
 		TreeSet myTreeSet = new TreeSet();
    		myTreeSet.addAll(yu);
        	System.out.println(myTreeSet.toString().replace("[","").replace("]","").replace(",","").trim());
